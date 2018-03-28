@@ -1,0 +1,61 @@
+.countdown-BCT{
+	text-align: center;
+}
+.countdown-BCT li {
+      display: inline-block;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.countdown-BCT li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+#days {
+  font-size: 50px;
+  color: #db4844;
+}
+#hours {
+  font-size: 50px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+@media only screen and (max-width: 768px){
+#days {
+  font-size: 30px;
+  color: #db4844;
+}
+#hours {
+  font-size: 30px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 30px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 30px;
+  color: #abcd58;
+}
+.countdown-BCT li {
+  padding:4px;
+  font-size: 9px;
+  }
+  .countdown-BCT{
+    padding: 0;
+    margin: 0;
+  }
+  }
